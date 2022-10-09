@@ -112,7 +112,6 @@ export const list = async ctx =>{
         console.log('entrou')
         console.log(aposta)
       }}
-    console.log(pontos)
   }catch{
     ctx.body = error
     ctx.status = 500
