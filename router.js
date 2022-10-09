@@ -1,6 +1,14 @@
-import Router from '@koa/router'
-import * as user from './app/users/index.js'
-export const router = new Router();
+import Router  from '@koa/router'
+import  * as users from './app/users/index.js'
+import  * as hunches from './app/hunches/index.js'
+import  * as games from './app/games/index.js'
 
-router.post('/users', user.create)
-router.get('/list', user.list)
+export const router = new Router()
+
+router.post('/users', users.create)
+router.get('/login', users.login)
+router.get('/users', users.list)
+router.post('/hunches', hunches.create)
+
+router.get('/games', games.list)
+router.get("/:username", users.hunches);
