@@ -23,5 +23,8 @@
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "react-use": "^17.4.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.4.0"
   }
 }
