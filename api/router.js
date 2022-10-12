@@ -7,7 +7,7 @@ export const router = new Router()
 
 router.post('/users', users.create)
 router.get('/login', users.login)
-router.get('/users', users.list)
+router.post('/token', users.Token)
 router.post('/hunches', hunches.create)
 
 router.get('/games', games.list)
