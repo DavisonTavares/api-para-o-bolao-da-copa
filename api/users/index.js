@@ -91,6 +91,16 @@ export const hunches = async ctx => {
       pontos
   }
 }
+export const Token = async ctx =>{
+  try{
+    const data = jwt.verify(ctx.request.body.token, process.env.JWT_SECRET)  
+    ctx.body = data.name
+    ctx.status = 200
+  }catch{
+    ctx.body = 'Chave Invalida'
+    ctx.status = 500
+  }
+}
 export const list = async ctx =>{
   let hunches = new Array
   try{
