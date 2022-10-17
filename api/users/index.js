@@ -85,6 +85,14 @@ export const hunches = async ctx => {
       }
   }
   }
+  await prisma.user.update({
+    where: {
+      id: user.id
+    },
+    data:{
+      pontos
+    }
+  })
   ctx.body = {
       name: user.name,
       hunches,
