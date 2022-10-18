@@ -13,7 +13,7 @@ export const list = async ctx => {
     )
   }
   const hora = getHours(new Date(currentDate))  
-  const horaAtual = addHours(new Date(currentDate), -(hora + 3));
+  const horaAtual = addHours(new Date(currentDate), -(hora));
   if(getDayOfYear(new Date(currentDate)) > DiaAtual){
     currentDate = horaAtual
   }
