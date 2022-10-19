@@ -34,3 +34,25 @@ export const list = async ctx => {
     ctx.status = 500
   }
 }
+export const listpro = async ctx => {
+  const currentDate = ctx.request.query.gameTime;
+  const where = currentDate ? {
+      gameTime: {
+          gte: currentDate,
+          lt: formatISO(addDays(new Date (currentDate), 1))
+      }
+  } : {}
+
+  try {
+      const games = await prisma.game.findMany({
+          where
+      })
+      ctx.body = games
+      ctx.status = 200;
+  } catch (error) {
+      console.error(error);
+      ctx.body = error
+      ctx.status = 500;
+      return;
+  }
+}
