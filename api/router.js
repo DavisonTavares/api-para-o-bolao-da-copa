@@ -9,6 +9,7 @@ router.post('/users', users.create)
 router.get('/login', users.login)
 router.post('/token', users.Token)
 router.post('/hunches', hunches.create)
+router.get('/listpro', games.listpro)
 
 router.get('/games', games.list)
 router.get("/:username", users.hunches);
