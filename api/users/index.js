@@ -74,12 +74,16 @@ export const hunches = async ctx => {
   if(apostas.length > 0){
     for(let x = 0; x < placar.length; x++ ){
       for(let y = 0; y < apostas.length; y++ ){
-        if(placar[x].id == apostas[y].gameId){
-          if(placar[x].homeTeam == apostas[y].homeTeamScore){
-            pontos += 3
-          }
-          if(placar[x].awayTeam == apostas[y].awayTeamScore){
-            pontos += 3
+         if(placar[x].id == apostas[y].gameId){
+          if((placar[x].homeTeam == apostas[y].homeTeamScore) && (placar[x].awayTeam == apostas[y].awayTeamScore)){
+              pontos += 3
+          }else{
+            if(placar[x].homeTeam == apostas[y].homeTeamScore){
+              pontos += 1
+            }
+            if(placar[x].awayTeam == apostas[y].awayTeamScore){
+              pontos += 1
+            }
           }
           }
       }
