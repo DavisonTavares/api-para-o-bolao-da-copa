@@ -5,14 +5,14 @@ export const placar = [
         awayTeam: 2
     },
     {
-        id:'cl90bewur0010vgj4n7z21vru',
-        homeTeam: -1,
-        awayTeam: -1
+        id:'cl9erkqn90001vglcfgfvm0bp',
+        homeTeam: 6,
+        awayTeam: 2
     },
     {
-        id:'cl90bewur0012vgj4wj4gx3sz',
-        homeTeam: -1,
-        awayTeam: -1
+        id:'cl9erkqn90002vglc0rc0mgfp',
+        homeTeam: 0,
+        awayTeam: 2
     },
     {
         id:'cl90bewur0013vgj490s0777m',
@@ -20,9 +20,9 @@ export const placar = [
         awayTeam: -1
     },
     {
-        id:'cl90bewur0014vgj4t6shs84k',
-        homeTeam: -1,
-        awayTeam: -1
+        id:'cl9erkqn90003vglch3hj1053',
+        homeTeam: 1,
+        awayTeam: 1
     },
     {
         id:'cl90bewur0015vgj4gccmzona',
