@@ -139,3 +139,14 @@ export const list = async ctx =>{
     ctx.status = 500
   }
 }
+export const listar = async ctx => {
+  try{
+    const users = await prisma.user.findMany()
+    console.log("chamou")
+    ctx.body = users
+    ctx.status = 200
+  }catch(error){
+    ctx.body = error
+    ctx.status = 500
+  }
+}
