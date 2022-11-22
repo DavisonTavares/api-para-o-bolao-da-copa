@@ -141,8 +141,12 @@ export const list = async ctx =>{
 }
 export const listar = async ctx => {
   try{
-    const users = await prisma.user.findMany()
-    console.log("chamou")
+   let us = users
+    if(us[0]?.pontos >= 0){
+      us.sort(function(a,b) {
+        return a.pontos < b.pontos ? 1 : a.pontos > b.pontos ? -1 : 0;
+    })
+    }
     ctx.body = users
     ctx.status = 200
   }catch(error){
