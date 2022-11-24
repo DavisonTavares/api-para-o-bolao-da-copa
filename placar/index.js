@@ -66,9 +66,9 @@ export const placar = [
         awayTeam: 0
     },
     {
-        id:'cl9erkqn90007vglcddddddq3555555ge1vp',
-        homeTeam: -1,
-        awayTeam: -1
+        id:'cl9erkqn9000dvglc1twer31t',
+        homeTeam: 0,
+        awayTeam: 0
     },
     {
         id:'cl9erkqn90007vglcddddd55151dq3ge1vp',
