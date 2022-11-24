@@ -15,14 +15,14 @@ export const placar = [
         awayTeam: 2
     },
     {
-        id:'cl9erkqn90004vglcce641rt9',
-        homeTeam: 1,
-        awayTeam: 2
-    },
-    {
         id:'cl9erkqn90003vglch3hj1053',
         homeTeam: 1,
         awayTeam: 1
+    },
+    {
+        id:'cl9erkqn90004vglcce641rt9',
+        homeTeam: 1,
+        awayTeam: 2
     },
     {
         id:'cl9erkqn90005vglcojt9cjyh',
@@ -61,52 +61,52 @@ export const placar = [
         awayTeam: 0
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3155555ge1vp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3555555ge1vp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddd55151dq3ge1vp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq5151151513ge1vp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcdddddd4444444q3ge1vp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3gSSCDe1vp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3ge1vpSDFDF',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3ge1DSFSDFDvp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3ge1vSDFDFDp',
         homeTeam: -1,
         awayTeam: -1
     },
     {
-        id:'cl9erkqn90007vglcddddddq3ge1vp',
+        id:'cl9erkqn90007vglcddddddq3ge1DSFFSDFSDvp',
         homeTeam: -1,
         awayTeam: -1
     }
