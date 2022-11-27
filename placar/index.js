@@ -119,8 +119,102 @@ export const placar = [
         id:'cl9erkqna000nvglc2gc14mqq',
         homeTeam: 2,
         awayTeam: 0
+    },
+    {
+        id:'cl9erkqna000ovglc3o2h3xg4',
+        homeTeam: 0,
+        awayTeam: 1
+    },
+    {
+        id:'cl9erkqna000pvglcag7wqf1p',
+        homeTeam: 0,
+        awayTeam: 2
+    },
+    {
+        id:'cl9erkqna000qvglcdq5m9ib3',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erkqna000rvglcdg9ipncg',
+        homeTeam: 1,
+        awayTeam: 1
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
+    },
+    {
+        id:'cl9erfffffffffffff454545kqna000nvglc2gc14mqq',
+        homeTeam: 2,
+        awayTeam: 0
     }
-    
     
 ]
 export default {
